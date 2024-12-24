@@ -1,0 +1,17 @@
+.download-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+  background-color: rgba(22,24,35,.06);
+}
+
+.download-btn svg {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+} 
